@@ -9,4 +9,6 @@ soup = BeautifulSoup(webpage, "html.parser")
 
 print(soup)
 #print(soup.find_all("h1"))
-#soup.select("a-name")
+print(soup.select("case-summary"))
+
+#soup.get_text()
